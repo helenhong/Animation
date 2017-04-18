@@ -13,8 +13,6 @@
 		2E4AA9081EA31C4E00F9C010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4AA9061EA31C4E00F9C010 /* Main.storyboard */; };
 		2E4AA90A1EA31C4E00F9C010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4AA9091EA31C4E00F9C010 /* Assets.xcassets */; };
 		2E4AA90D1EA31C4E00F9C010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4AA90B1EA31C4E00F9C010 /* LaunchScreen.storyboard */; };
-		2E4AA9181EA31C4F00F9C010 /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AA9171EA31C4F00F9C010 /* AnimationDemoTests.m */; };
-		2E4AA9231EA31C4F00F9C010 /* AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AA9221EA31C4F00F9C010 /* AnimationDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +44,7 @@
 		2E4AA90C1EA31C4E00F9C010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E4AA90E1EA31C4E00F9C010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4AA9131EA31C4F00F9C010 /* AnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E4AA9171EA31C4F00F9C010 /* AnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoTests.m; sourceTree = "<group>"; };
-		2E4AA9191EA31C4F00F9C010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4AA91E1EA31C4F00F9C010 /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E4AA9221EA31C4F00F9C010 /* AnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoUITests.m; sourceTree = "<group>"; };
-		2E4AA9241EA31C4F00F9C010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				2E4AA8FC1EA31C4E00F9C010 /* AnimationDemo */,
-				2E4AA9161EA31C4F00F9C010 /* AnimationDemoTests */,
-				2E4AA9211EA31C4F00F9C010 /* AnimationDemoUITests */,
 				2E4AA8FB1EA31C4E00F9C010 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				2E4AA8FE1EA31C4E00F9C010 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2E4AA9161EA31C4F00F9C010 /* AnimationDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				2E4AA9171EA31C4F00F9C010 /* AnimationDemoTests.m */,
-				2E4AA9191EA31C4F00F9C010 /* Info.plist */,
-			);
-			path = AnimationDemoTests;
-			sourceTree = "<group>";
-		};
-		2E4AA9211EA31C4F00F9C010 /* AnimationDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2E4AA9221EA31C4F00F9C010 /* AnimationDemoUITests.m */,
-				2E4AA9241EA31C4F00F9C010 /* Info.plist */,
-			);
-			path = AnimationDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E4AA9181EA31C4F00F9C010 /* AnimationDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E4AA9231EA31C4F00F9C010 /* AnimationDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +481,7 @@
 				2E4AA9291EA31C4F00F9C010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E4AA92A1EA31C4F00F9C010 /* Build configuration list for PBXNativeTarget "AnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +490,7 @@
 				2E4AA92C1EA31C4F00F9C010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E4AA92D1EA31C4F00F9C010 /* Build configuration list for PBXNativeTarget "AnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +499,7 @@
 				2E4AA92F1EA31C4F00F9C010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
